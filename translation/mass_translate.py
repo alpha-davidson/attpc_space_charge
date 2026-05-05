@@ -340,5 +340,5 @@ with torch.no_grad():
 orig = torch.cat(all_orig, dim=0)
 trans = torch.cat(all_trans, dim=0)
 
-np.save('origignal_beamless.npy', orig.numpy())  # shape (N, 512, 4)
-np.save('translated_beamless.npy', trans.numpy())  # shape (N, 512, 4)
+np.save('original.npy', orig.numpy())  # shape (N, 512, 4)
+np.save('translated.npy', trans.numpy())  # shape (N, 512, 4)

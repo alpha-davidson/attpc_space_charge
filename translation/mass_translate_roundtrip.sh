@@ -19,6 +19,9 @@ echo "=============================="
 # Activate environment
 source /opt/conda/bin/activate dpm-pc-gen
 
+# Naming convention:
+# sim = yesSC
+# exp = noSC
 
 # Optional: Print GPU info
 nvidia-smi

@@ -23,6 +23,10 @@ source /opt/conda/bin/activate dpm-pc-gen
 # Optional: Print GPU info
 nvidia-smi
 
+# Naming convention:
+# sim = yesSC (WITH SPACE CHARGE)
+# exp = noSC (WITHOUT SPACE CHARGE)
+
 # Run translation script
 python mass_translate.py \
     --sim_model ../logs_gen/fission_sim_yesSC/ckpt_82000.000000_3854047.pt \
